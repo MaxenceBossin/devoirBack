@@ -1,15 +1,15 @@
-#Devoir Maxence Bossin | Projet réalisation platforme de montre connecté
+Devoir Maxence Bossin | Projet réalisation platforme de montre connecté
 
-##Sommaire 
+Sommaire 
 1. Brief
 2. Technologie choisie
 3. Partie fonctionnelle
 
-##Brief
+Brief
 Réalisation d'une plateforme permettant d'acheter des montres connecté, le site devrai gérer de gros volume.
 Un utilisateur devra se connecter pour ajouter une ou plusieurs montre à son panier et les achetés.
 
-##Technologie choisie
+Technologie choisie
 Back-end : Symfony -> réalisation d'un système d'api
 Front-end : Symfony
 Base de données : PostGre : efficace pour gérer de gros volume
@@ -17,19 +17,19 @@ Base de données : PostGre : efficace pour gérer de gros volume
 En local lancer le projet sur le port 8000
 
 
-##Partie fonctionnelle
+Partie fonctionnelle
 
-###Opérationnel:
+Opérationnel:
 - Liste de montre 
 - Montre détail
 - Inscription
 - base de données sur postgre
 - systeme d'api
 
-###Existante mais non-fonctionnelle:
+Existante mais non-fonctionnelle:
 - Login avec JWT, récupération sur postman mais pas en front
 
-###Fonctionnalité a ajouté:
+Fonctionnalité a ajouté:
 - Vérification du login sécurisé : actuellement, un login temporaire a été mis en place, mais la connexion n'est pas sécurisée.
 - mise en place d'un système d'ajout au panier, cependant la table ordered existe déjà pour mettre en place la fonctionnalité
 - Mise en place d'un système de paiement  
